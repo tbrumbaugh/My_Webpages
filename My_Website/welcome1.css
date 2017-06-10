@@ -1,0 +1,33 @@
+body {
+     background-image: url("./Images/home-cover-image.jpg");
+     background-color: rgb(150,150,150);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     background-position: right top;
+     background-attachment: fixed;
+     color: white;
+     text-align: center;
+}
+
+h1 {
+   font-family: montserrat;
+   font-size: 70px;
+   margin-top: 20%;
+}
+
+p {
+  font-family: lora;
+  font-size: 24px;
+}
+
+a {
+  background-color: rgb(219, 135, 8);
+  font-family: lora;
+  font-size: 24px;
+  color: white; 
+  text-decoration: none;
+  border-style: groove;
+  border-radius: 5px;
+  padding: 1% 15% 1% 15%;
+  margin: 0% 0% 40% 0%;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html> 
+<html lang = "en">
+
+<!-- The head element in html is a container for metadata (data about data and therefore is between the html and the body tags. We define the document title, character set, styles, links, scripts, styles sheets, and other meta information. The follow tags describe metadata: title,style,meta,link,script, and base. -->
+<head>
+	<!-- Defines the title in the browser tab, when added to favorites, and search engine results. -->
+	<title> Thomas Brumbaugh's Personal Website | About Me </title>
+
+	<!-- Link defines any external documents and links them to the html page. Here we are linking a style sheet. -->
+	<link rel="stylesheet" type="text/css" href="about_me.css">
+
+	<!-- Define internal style information  -->
+
+	<!-- Link connects external style sheets (EX: link rel = "stylesheet" href = "mystyle.css") -->
+
+	<!-- Meta data includes what characters are used for the webpage, a page description, keywords, the author, and other meta data such as viewport which determines how the webpage will look on different devices. -->
+	<meta charset = "utf-8" >
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+	<meta name = "description" content = "Meet the man, the myth, the legend">
+	<meta name = "author" content = "Tom Brumbaugh">
+
+	<!-- Script write client-side JavaScripts. In other words, you program something but the client (person viewing the page) will run it. -->
+	<script>
+	function myFunction() {
+	    document.getElementById("BUTTON").innerHTML = "Look out world!";
+	}
+	</script>
+
+	<!-- Link is used to define how other webpages relate to the current one and how they should move through images and links. -->
+
+</head>
+<body>
+	<nav>
+		 <ul>
+			<li>Math, and Statistics</li>
+                 	<li>Science, and Technology</li>
+                      	<li>Economics, and Finance</li>
+	                <li>Business, and Entreprenuership</li>
+                  	<li>Communication, and Leadership</li>
+                        <li>Health, Fitness, and Nutrition</li>
+                        <li>Spirituality</li>
+                        <li>Travel</li>
+	                <li>Reading, and Lifelong Learning</li>
+                </ul>
+
+		
+	</nav>
+	<div>
+		<h1>About Me</h1>
+	</div>
+	<div>
+		<p>My name is Tom Brumbaugh and I am a 21 year old Math and Computer Science double major at UMBC.</p>
+		<p>However, I think it is hard to define myself in just a sentence.</p>
+		<p>I am interested in many different things and am always looking to learn.</p>
+		<p>A few of the subjects that have grabbed my attnetion are:
+			<div>
+				<p>
+					<ul>
+						<li>Math, and Statistics</li>
+						<li>Science, and Technology</li>
+						<li>Economics, and Finance</li>
+						<li>Business, and Entreprenuership</li>
+						<li>Communication, and Leadership</li>
+						<li>Health, Fitness, and Nutrition</li>
+						<li>Spirituality</li>
+						<li>Travel</li>
+						<li>Reading, and Lifelong Learning</li>
+					</ul>
+				</p>
+			</div>
+		</p>
+		<p>I just started the summer between my Junior and Senior years of college.</p>
+		<p>The past few summers I worked numerous hours as a lifeguard at Columbia Association and interning as a programmer at OptioLabs's office at Camden Yards.</p>
+		<p>Both of these jobs were very rewarding both in respect to the experiences:
+			<div>
+				<p> 
+					<ul> As a lifeguard I gained:
+						<li> Lifeguard and Pool Operator Certifications. </li>
+						<li> Interpersonal skills interacting by interacting with patrons, coworkers, and supervisors at the pool.</li>
+						<li> Managerial and leadership skills by scheduling, assessing the preformance of, and training other lifegaurds.</li>
+						<li> Decision making skills during various dangerous scenarios.</li>
+					</ul>
+					<ul> As an intern at OptioLabs I gained:
+						<li> Exposure to different cutting edge technology.</li>
+						<li> My first taste of programming in a professional enviroment.</li>
+						<li> Mentors such as Hamilton, Andy, Chase, and Greg to direct my developement in the field of both Entreprenuership and Computer Science.</li>
+					</ul>
+				</p>
+			</div>
+		</p>
+		<p>This experience at both Companies and my own developement this year has made me want to try and build my own business this summer.</p>
+		<p>As college comes to a close and my commitments will continue to grow, this summer I will try and make money and experement with any interesting ideas that come to mind.</p>
+		<p>I will be documenting my journey on this website( Hopefully by the time that anyone reads this it will have something to show for it and not look as horrendeous as it does now).</p>
+		<p id = "BUTTON"></p>
+		<button type = "button" onclick = "myFunction()"> CLICK </button>
+	</div>
+</body>
